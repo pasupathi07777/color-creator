@@ -13,6 +13,8 @@ import FormValidation from './Form_validation';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <SquareBox />
+    <FormValidation />
     <App />
   </React.StrictMode>
 );
