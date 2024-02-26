@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Form_validation from './components/Form_validation';
+import Square_box from './components/Square_box';
+
 
 function App() {
+
+
+  let [color_name,setcolor_name]=useState("")
+  let [hexcolor_name,sethexcolor_name]=useState('')
+  console.log(hexcolor_name)
+ 
+  let [names, setname]=useState(true)
+  console.log(names)
+  
+
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Square_box  color_name={color_name} hexcolor_name={hexcolor_name} names={names} />
+      <Form_validation color_name={color_name} setcolor_name={setcolor_name} sethexcolor_name={sethexcolor_name} names={names} setname={setname}/>
     </div>
+    
   );
 }
 
