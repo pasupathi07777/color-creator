@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 
 // After
-import SquareBox from './Square_box';
+import SquareBox from './SquareBox';
 import FormValidation from './Form_validation';
 
 
