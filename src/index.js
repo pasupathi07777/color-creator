@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// Before
-import Square_box from './Square_box';
-import Form_validation from './Form_validation';
+
 
 // After
 import SquareBox from './Square_box';
