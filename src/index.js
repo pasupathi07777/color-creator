@@ -5,16 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-// After
-import SquareBox from './SquareBox';
-import FormValidation from './Form_validation';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <React.StrictMode>
-    <SquareBox />
-    <FormValidation />
+
     <App />
   </React.StrictMode>
 );
